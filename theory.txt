@@ -9,3 +9,35 @@ Most important:
 - ls : list of repos/files inside 
 - mkdir "Name" : create repo
 - touch "file.someting" : add file
+
+
+Git commands/ flow :
+
+https://www.hostinger.com/tutorials/basic-git-commands
+
+Whenever you create a new project:
+
+- go on github and add new repo and follow the steps from there.
+
+If you work on someone elses repo:
+ 
+- use git clone command and clone the repo to your local environment
+
+Flow of git:
+
+- always branch off "main" and create your own branch and only work on that
+- don't forget to save the file in your VsCode
+- create commits after smaller chunks of work
+- whenever you push go to Github and create a pull request
+- wait for someone else to check your code and merge it 
+
+Git commands for workflow:
+
+- git init : initialise new repo locally 
+- git clone: clone repo from github to your local environment
+- git branch: check branch you're on
+- git checkout "destinaton branch name" : move to specific branch
+- git checkout -b : create new branch
+- git add . : add file before commit (here is where you have to make sure you saved the file in VsC!!)
+- git commit -m "commit message": give a discription on what you've done in the code
+- git push: push it to Github

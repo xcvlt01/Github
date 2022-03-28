@@ -6,7 +6,7 @@ let boolean;
 // assigning a value to a variable
 name1 = "Marci"; // string
 number = 1;
-boolean = true;
+boolean = true; // a boolean is a true or false value
 
 // you can log all values in the console
 console.log(value);
@@ -51,7 +51,7 @@ console.log(localVariable); // this wont work outside the function, it'll give y
 // 3. Create a function called setNewBand()
 // 4. The function should take newBand as an argument
 // 5. Set band to newBand inside the function
-// 6. Log the value of band to a new band name in the console
+// 6. Log the value of band in the console
 // 7. Call the function with the new band name you want to set it to
 // 8. Look at your console if you get the right result
 
@@ -60,12 +60,13 @@ console.log(localVariable); // this wont work outside the function, it'll give y
 // do this in CodePen for now
 
 // 1. Declare two global variables called: number1 , number2
-// 2. Create a function called setNumber()
-// 3. Set the value of number1 to newNumber1, and number2 to newNumber1
-// 4. Create a new function called AddNumbers()
-// 5. Add result = number1 + number2 to the function body
-// 6. Add colsole.log(result) after the previous line
-// 7. Call AddNumbers()
-// 8. Check your console if your result is correct
+// 2. Create a function called setNumbers()
+// 3. Set the value of number1 to newNumber1, and number2 to newNumber2
+// 4. Call setNumbers() with the new numbers you want to set it to
+// 5. Create a new function called AddNumbers()
+// 6. Add " let result = number1 + number2 " to the function body (no quotation marks!)
+// 7. Add console.log(result) after the previous line
+// 8. Call AddNumbers()
+// 9. Check your console if your result is correct
 
 /// +++  GOOD LUCK WEIRDO (^.^)~  +++ ///

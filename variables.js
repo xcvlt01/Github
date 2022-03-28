@@ -1,4 +1,4 @@
-// declaring a variable
+// _______DECLARING A VARIABLE_______ //
 let name1;
 let number;
 let boolean;
@@ -11,29 +11,37 @@ boolean = true; // a boolean is a true or false value
 // you can log all values in the console
 console.log(value);
 
-// declaring a function
+// _______DECLARING A FUNCTION_______ //
+
 function nameOfFunction(functionArguments) {
   // this is the function body
   // your code goes here
 }
 
-// calling a function
-nameOfFunction(newArgument);
+// _______CALLING A FUNCTION_______ //
+
+nameOfFunction(theValueYouWantToSetTheVariableTo);
+
+// _______GLOBAL VARIABLES_______ //
 
 // you can declare global variables outside functions, they can be used troughout your whole code
 let globalVariable = 1;
 
 function setGlobalVariable(newglobalVariable) {
-  // when you call this function you can set the variable to a different number(set it to 2)
   globalVariable = newglobalVariable;
   console.log(globalVariable);
 }
+// when you call this function you can set the variable to a different number(set it to 2)
+setGlobalVariable(2);
+
 function addToGlobalVariable() {
   // this is gonna do 2 + 1
   globalVariable + 1;
   console.log(globalVariable);
   // the console returns 3
 }
+
+// _______LOCAL VARIABLES_______ //
 
 // local variables can only be declared and used inside a function, they don't exist outside
 function createLocalVariable(addValue) {

@@ -17,6 +17,9 @@ function nameOfFunction(functionArguments) {
   // your code goes here
 }
 
+// calling a function
+nameOfFunction(newArgument);
+
 // you can declare global variables outside functions, they can be used troughout your whole code
 let globalVariable = 1;
 

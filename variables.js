@@ -50,7 +50,7 @@ function createLocalVariable(addValue) {
 }
 console.log(localVariable); // this wont work outside the function, it'll give you an error
 
-/// *** EXCERSISE 1 *** ///
+/// *** EXCERCISE 1 *** ///
 
 // do this in CodePen for now
 
@@ -63,7 +63,7 @@ console.log(localVariable); // this wont work outside the function, it'll give y
 // 7. Call the function with the new band name you want to set it to
 // 8. Look at your console if you get the right result
 
-/// *** EXCERSISE 2 *** ///
+/// *** EXCERCISE 2 *** ///
 
 // do this in CodePen for now
 

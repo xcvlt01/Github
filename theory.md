@@ -41,3 +41,5 @@ If you work on someone else's repo:
 - _git add ._: add file before commit !!here is where you have to make sure you saved the file in VsC!!
 - _git commit -m "commit message"_: give a discription on what you've done in the code
 - _git push_: push it to Github
+
+- _git pull_: you always have to pull down the latest version of the main branch to be up to date with the code

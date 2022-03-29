@@ -41,3 +41,33 @@ let array2 = [3, 4];
 
 let joinedArray = array1.concat(array2);
 console.log(joinedArray); // this will return [1,2,3,4]
+
+// _______OTHER ARRAY METHODS_______ //
+
+// there is a bunch of other stuff you can do on arrays, check out this link:
+
+// https://www.w3schools.com/js/js_array_methods.asp
+
+/// *** EXERCISE 1 *** ///
+
+// do this in CodePen for now
+
+// A)
+// 1. Declare an array of your favorite movies
+// 2. Create a function called AddNewMovie() that takes newMovie as an argument
+// 3. Inside the function body use the push method to add a new element to your array
+// 4. Add console.log(yourArrayName) under the previous line
+// 5. Call AddNewMovie() with the element you'd like to add and check the console if it's there
+
+// B) (this is connected to A)
+// 1. Create a function called RemoveMovie()
+// 2. Inside the function body use the pop method to remove the element you added
+// 3. Add console.log(yourArrayName) under the previous line
+// 4. Call RemoveMovie() and check the console if it was removed
+
+// C) (this is connected to A)
+// 1. Declare an array of your least favorite movies
+// 2. Create a function called JoinArrays()
+// 3. Inside the function body use the concat method to join your favorite movies and  your least favorite movies together into one array
+// 4. Add console.log(yourJoinedArrayName) under the previous line
+// 5. Call JoinArrays() and check the result in the console.

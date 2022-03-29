@@ -25,4 +25,19 @@ array.push("element you want to push"); // this element will be the last one in 
 arrayOfMovies.push("The Shining");
 console.log(arrayOfMovies); // this will return "Hellraiser", "Alien", "Gremlins", "The Shining"
 
-// _______ADD NEW ELEMENT TO ARRAY_______ //
+// _______REMOVE LAST ELEMENT FROM AN ARRAY_______ //
+
+array.pop(); //this only removes the LAST element of an array and takes no argument
+
+// example
+arrayOfMovies.pop();
+console.log(arrayOfMovies); // this will return "Hellraiser", "Alien", "Gremlins" since we removed the last element ("The Shining")
+
+// _______JOIN TWO ARRAYS_______ //
+// you can join two arrays together into one
+
+let array1 = [1, 2];
+let array2 = [3, 4];
+
+let joinedArray = array1.concat(array2);
+console.log(joinedArray); // this will return [1,2,3,4]
